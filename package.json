@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Just a todo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --env-file=.env --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neazsamir/todo.git"
+  },
+  "author": "NEAZ MAHMUD SAMIR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neazsamir/todo/issues"
+  },
+  "homepage": "https://github.com/neazsamir/todo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
