@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo Homepage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="taskcontainer">
+			  <h1>Your tasks</h1>
+				<ul id="tasklist">
+	      <!-- tasks here -->
+				</ul>
+	    <h4>No task yet</h4>
+		</div>
+	<button class="modal-button">+</button>
+	</div>
+	<div class="overlay"></div>
+	<div class="modal">
+		<div class="modal-content">
+			<form id="submitTask">
+			<div>
+				<input type="text" name="task" placeholder="Enter your task" maxlength="30" required="">
+				<input type="datetime-local" name="alarm">
+				<button type="button" class="add-alarm">add alarm</button>
+				<div class="buttons">
+					<button class="close-modal" type="button">CLOSE</button>
+					<button type="submit">ADD TASK</button>
+				</div>
+			</div>
+		</form>
+		</div>
+	</div>
+	<script type="module" src="script.js"></script>
+</body>
+</html>
